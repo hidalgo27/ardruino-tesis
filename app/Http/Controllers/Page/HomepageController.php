@@ -24,6 +24,6 @@ HomepageController extends Controller
         $data->longitud = $request->input('txt_longitud');
         $data->save();
 
-//        return redirect(route('home_path'));
+        return redirect(route('home_path'));
     }
 }
